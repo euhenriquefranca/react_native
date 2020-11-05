@@ -16,12 +16,12 @@ export default function App() {
           component={Home}
           options={{
             title: "Plaza Valencia Academy",
-            headerStyle: { backgroundColor: "#F58634" },
-            headerTintColor: "#333",
+            headerStyle: { backgroundColor: "#5D496D" },
+            headerTintColor: "#F8F0FF",
             headerTitleStyle: { fontWeight: "bold", alignSelf: "center" },
           }}
         />
-        <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="Login" options={{headerShown: false}} component={Login} />
         <Stack.Screen name="Rastreio" component={Rastreio} />
         {/* <Stack.Screen name="Login" component={AreaRestrita} /> */}
       </Stack.Navigator>
